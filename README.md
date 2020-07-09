@@ -95,45 +95,20 @@ BenchmarkFindPhone-4     1964847               607 ns/op
 好。下载地址
 https://git.oschina.net/oss/phonedata/attach_files
 
-
-### 其他语言实现
-
-python: https://github.com/lovedboy/phone
-
-php:  https://github.com/shitoudev/phone-location , https://github.com/iwantofun/php_phone
-
-php ext: https://github.com/jonnywang/phone
-
-java: https://github.com/fengjiajie/phone-number-geo , https://github.com/EeeMt/phone-number-geo
-
-Node: https://github.com/conzi/phone
-
-C++: https://github.com/yanxijian/phonedata
-
-C#: https://github.com/sndnvaps/Phonedata
-
-Rust: https://github.com/vincascm/phonedata
-
-### 安全保证
-
 手机号归属地信息是通过网上公开数据进行收集整理。
 
 对手机号归属地信息数据的绝对正确，我不做任何保证。因此在生产环境使用前请您自行校对测试。
 
 
-### 客户案例
-
-- [360](https://www.360.cn/)
-- [MAGAPP](http://www.magapp.cc/)
-- ...
+### 号码规则
+手机号码编码规则
+前三位为网络识别号：表示哪家运营商;
+中间四位地区编码，表示号码所在地区;
+后四位为用户编号，表示用户身份;
 
 ### 感谢
 @lovedboy https://github.com/lovedboy
 
 @zhengji  https://github.com/zheng-ji/gophone
 
-### 联系作者
-
-加作者微信
-
-![wx.jpg](https://ucc.alicdn.com/pic/developer-ecology/f41fd688affb41fc8853c4f99abd3d45.jpg)
+@xluohome  https://github.com/xluohome/phonedata

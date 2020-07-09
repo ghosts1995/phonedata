@@ -1,0 +1,10 @@
+*.exe
+*.log
+*.toml
+.idea/*
+.idea
+.vscode/*
+.vscode
+tmp/*
+*.pid
+.DS_Store
