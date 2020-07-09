@@ -3,8 +3,7 @@ package main
 import (
 	"fmt"
 	"os"
-
-	"github.com/xluohome/phonedata"
+	"github.com/ghosts1995/phonedata"
 )
 
 func main() {
